@@ -8,9 +8,6 @@ import {
 } from 'react-native';
 function HomeScreen({navigation}) {
   return (
-    // <ImageBackground
-    // source={require('./channels4_profile.jpg')}
-    // style={styles.backgroundImage}>
     <SafeAreaView style={styles.homeContainer}>
       <TouchableOpacity
         style={styles.btnStyle}
@@ -23,7 +20,6 @@ function HomeScreen({navigation}) {
         <Text style={styles.btnTextStyle}>coinMarket Cap</Text>
       </TouchableOpacity>
     </SafeAreaView>
-    // </ImageBackground>
   );
 }
 
